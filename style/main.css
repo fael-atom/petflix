@@ -102,14 +102,48 @@ header nav a:hover {
 }
 
 .carrossel-filmes {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .item {
-    opacity: 0.55;
+    opacity: 0.5;
+    
+}
+
+.item img {
+    border-radius: 10px;
 }
 
 .item:hover {
     opacity: 1;
     transition: 0.5s;
+    
+}
+
+footer {
+    background-color: black;
+}
+
+footer div {
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0 5px 100px 1px #FFF;
+    margin-top: 50px;
+    
+}
+
+footer img {
+    opacity: 0.6;
+}
+
+footer img:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-top: 10px;
+    opacity: 0.8;
 }
